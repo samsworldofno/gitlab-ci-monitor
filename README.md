@@ -2,6 +2,10 @@
 
 A simple dashboard for monitoring [GitLab CI](https://about.gitlab.com/gitlab-ci/) builds. **Alpha version**.
 
+Deploy:
+
+    $ aws s3 sync . s3://resident.ly-production-monitor --region eu-west-2
+
 ## Usage
 
 This project runs completely in the browser. It expects a few parameters in the query string:
